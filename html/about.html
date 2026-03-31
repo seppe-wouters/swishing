@@ -6,60 +6,69 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>About</title>
     <link rel="stylesheet" href="../styleAbout.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <!-- Navigatie -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+    <div class="container-fluid">
+            <div class="row">
+                <nav id="kleurNavbar"
+                    class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <nav class="navbar bg-body-tertiary">
+                            <div class="container-fluid">
+                                <a class="swishingTekst navbar-brand" href="../index.html">
+                                    <img src="../logos/whiteIcon.png" alt="Logo"
+                                        width="65" height="42"
+                                        class="d-inline-block align-text-top">
+                                    Swishing
+                                </a>
+                            </div>
+                        </nav>
+                        <div class="collapse navbar-collapse"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="cooleKnop nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page"
+                                        href="../index.html">Home</a>
+                                </li>
+                                <li class="cooleKnop nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page"
+                                        href="./producten.html">Producten</a>
+                                </li>
+                                <li class="cooleKnop nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page"
+                                        href="./about.html">Over ons</a>
+                                </li>
+                                <li class="cooleKnop nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page"
+                                        href="./contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
-    </nav>
     <!-- Titel -->
     <div class="container">
-        <div class="row" style="text-align: center; font-weight: bold; font-size: 2rem;">
+        <div class="row" style="text-align: center; font-weight: bold; font-size: 2rem; margin: 25px;">
             <p >Over Swishing</p>
         </div>
     </div>
     <!-- Eerste Card -->
     <div class="container-fluid">
         <div id="row">
-            <div class="card mb-3" style="border: black 1px solid;">
+            <div class="card mb-3" style="border: black 1px solid; border-radius: 20px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="../AfbeeldingenAbout/imgSwishing.png" class="img-fluid rounded-start" alt="">
+                        <img src="../AfbeeldingenAbout/imgSwishing.png" class="img-fluid fotosOverOnsPagina" alt="">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 d-flex align-items-center" style="text-align: center;">
                         <div class="card-body">
                             <p class="card-text">‘Swishen’, jullie hebben er allicht van gehoord. Op een Swishing-evenement komen zo veel mogelijk mensen samen met een aantal kledingstukken waar ze zelf geen plezier meer aan beleven en die ze wensen door te geven in ruil voor nieuwe spullen. ✨ Wel, vanaf nu is dit ook mogelijk op de Sint-Maarten Bovenschool. In huis Lombaerts kan je ons gezellig winkeltje vinden met heel wat leuke spullen. 👢👗👛 Breng een tof kledingstuk of accessoire mee en ga naar huis met iets nieuws! Kom ons snel een bezoekje brengen. Elke middag staan we klaar tussen 12u20-13u! 👒</p>
                         </div>
@@ -71,15 +80,15 @@
     <!-- Tweede Card -->
     <div class="container-fluid">
         <div id="row">
-            <div class="card mb-3" style="border: black 1px solid;">
+            <div class="card mb-3" style="border: black 1px solid; border-radius: 20px;">
                 <div class="row g-0">
-                    <div class="col-md-8 d-flex align-items-center" style="text-align: center; ">
+                    <div class="col-md-8 d-flex align-items-center" style="text-align: center;">
                         <div class="card-body">
-                            <p class="card-text">Het concept van de swishing gaat over hergebruik van kleren. Zo probeert het mensen te motiveren om kleren in te ruilen voor andere kledingstukken. Dit kunnen kleren zijn die zich nog in een perfecte staat bevinden en die een nieuwe eigenaar zoeken. Dit concept zorgt ervoor dat perfecte kleren een tweede kans krijgen en er dus niet onnodig vernietigd wordt. </p>
+                            <p class="card-text">Het concept van Swishing gaat over het hergebruiken van kleren. Zo probeert het mensen te motiveren om kleren in te ruilen voor andere kledingstukken. Dit kunnen kleren zijn die zich nog in een perfecte staat bevinden en die een nieuwe eigenaar zoeken. Dit concept zorgt ervoor dat perfecte kleren een tweede kans krijgen en er dus niet onnodig vernietigd wordt. </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <img src="../AfbeeldingenAbout/imgSwishing.png" class="img-fluid rounded-start" alt="">
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <img src="../ProductenImg/Punten.png" class="img-fluid fotosOverOnsPagina" alt="">
                     </div>
                 </div>
             </div>
