@@ -4,7 +4,7 @@ const divEl = document.querySelector("#divEl")
 
 producten.forEach(p => {
     divEl.innerHTML += `
-        <div class="card" style="width: 18rem; padding: 5px;">
+        <div class="card col-12 col-md-6 col-lg-4 card-override" style="width: 18rem; padding: 5px;">
                 <img src="${p.afbeelding}" class="card-img-top" alt="..." height="300px">
                 <div class="card-body">
                     <h5 class="card-title">${p.naam}</h5>

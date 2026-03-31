@@ -12,7 +12,7 @@ function toonWinkelkar() {
     winkelKar.forEach(item => {
         totaal += item.prijs * (item.aantal || 1)
         winkelkarDiv.innerHTML += `
-            <div class="card" style="width: 18rem;">
+            <div class="card card-override" style="width: 18rem; padding: 5px;">
                 <img src="${item.afbeelding}" class="card-img-top" alt="..." height="300px">
                 <div class="card-body">
                     <h5 class="card-title">${item.naam}</h5>
