@@ -5,7 +5,6 @@
 #kleurNavbar {
     background: RGBA(186, 188, 187);
         background: linear-gradient(360deg, rgba(186, 188, 187, 1) 0%, rgba(56, 56, 56, 1) 100%);
-    padding: 10px;
 }
 #homeFoto{
     width: 100vw;
@@ -26,7 +25,7 @@
     background-color: transparent;
     color: black;
     border-radius: 10em;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 600;
     padding: 0.5em 1em;
     cursor: pointer;
