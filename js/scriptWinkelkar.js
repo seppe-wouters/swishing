@@ -13,7 +13,7 @@ function toonWinkelkar() {
         totaal += item.prijs * (item.aantal || 1)
         winkelkarDiv.innerHTML += `
             <div class="card" style="width: 18rem;">
-                <img src="${item.afbeelding}" class="card-img-top" alt="...">
+                <img src="${item.afbeelding}" class="card-img-top" alt="..." height="300px">
                 <div class="card-body">
                     <h5 class="card-title">${item.naam}</h5>
                     <p class="card-text">Prijs: ${item.prijs} ptn</p>

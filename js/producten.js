@@ -1,20 +1,32 @@
 export let producten = [
     {
         id: 1,
-        naam: "AMERICAN CLASSIC - Poloshirt",
-        afbeelding: "../ProductenImg/poloshirtWit.png",
-        prijs: 3
-    }, 
+        naam: "Combo Outfit",
+        afbeelding: "../ProductenImg/combo.png",
+        prijs: 6
+    },
     {
         id: 2,
-        naam: "Calvin Klein Underwear",
-        afbeelding: "../ProductenImg/CKUnderwear.png",
-        prijs: 5
+        naam: "Strooie hoed",
+        afbeelding: "../ProductenImg/hoed.png",
+        prijs: 2
     },
     {
         id: 3,
-        naam: "AMERICAN CLASSIC TRACKWAY - Poloshirt",
-        afbeelding: "../ProductenImg/poloshirtZwart.png",
-        prijs: 3    
+        naam: "Rode tas van hogwarts",
+        afbeelding: "../ProductenImg/rodeTas.png",
+        prijs: 3
+    },
+    {
+        id: 4,
+        naam: "Schoenen",
+        afbeelding: "../ProductenImg/schoen.png",
+        prijs: 5,
+    },
+    {
+        id: 5,
+        naam: "Witte tas",
+        afbeelding: "../ProductenImg/witteTas.png",
+        prijs: 2
     }
 ]

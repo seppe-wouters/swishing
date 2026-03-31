@@ -1,12 +1,11 @@
 import { producten } from "./producten.js";
 
 const divEl = document.querySelector("#divEl")
-const winkelkarEl = document.querySelector("#winkelkar")
 
 producten.forEach(p => {
     divEl.innerHTML += `
-        <div class="card" style="width: 18rem;">
-                <img src="${p.afbeelding}" class="card-img-top" alt="...">
+        <div class="card" style="width: 18rem; padding: 5px;">
+                <img src="${p.afbeelding}" class="card-img-top" alt="..." height="300px">
                 <div class="card-body">
                     <h5 class="card-title">${p.naam}</h5>
                     <p class="card-text">${p.prijs} ptn</p>
