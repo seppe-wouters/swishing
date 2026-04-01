@@ -2,18 +2,22 @@
     display: flex;
     justify-content: center;
 }
+
 #kleurNavbar {
     background: RGBA(186, 188, 187);
-        background: linear-gradient(360deg, rgba(186, 188, 187, 1) 0%, rgba(56, 56, 56, 1) 100%);
+    background: linear-gradient(360deg, rgba(186, 188, 187, 1) 0%, rgba(56, 56, 56, 1) 100%);
 }
-#homeFoto{
+
+#homeFoto {
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background: RGBA(213, 214, 216);
+    background: linear-gradient(0deg, rgba(213, 214, 216, 1) 60%, rgba(115, 115, 115, 1) 100%);
     margin: 0%;
     padding: 0;
 }
-#fotoHp{
+
+#fotoHp {
     height: 50%;
     width: 100%;
     margin: 0%;
@@ -47,6 +51,7 @@
     transform: translateY(2px) translateX(1px);
     box-shadow: 0 0 0 0 black;
 }
-.swishingTekst{
+
+.swishingTekst {
     font-size: 23px;
 }
