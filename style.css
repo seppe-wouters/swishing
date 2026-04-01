@@ -1,3 +1,7 @@
+body{
+    background: RGBA(213, 214, 216);
+        /*background: linear-gradient(180deg, rgba(213, 214, 216, 1) 60%, rgba(115, 115, 115, 1) 100%);*/
+}
 #centrum {
     display: flex;
     justify-content: center;
@@ -10,9 +14,7 @@
 
 #homeFoto {
     width: 100vw;
-    height: 100vh;
-    background: RGBA(213, 214, 216);
-    background: linear-gradient(0deg, rgba(213, 214, 216, 1) 60%, rgba(115, 115, 115, 1) 100%);
+    height: 100%;
     margin: 0%;
     padding: 0;
 }
@@ -54,4 +56,11 @@
 
 .swishingTekst {
     font-size: 23px;
+}
+
+.kleurHp {
+    background: RGBA(213, 214, 216);
+    background: linear-gradient(180deg, rgba(213, 214, 216, 1) 60%, rgba(115, 115, 115, 1) 100%);
+    width: 100%;
+    height: 100vh;
 }
