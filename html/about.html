@@ -12,48 +12,44 @@
     <!-- Navigatie -->
     <div class="container-fluid">
             <div class="row">
-                <nav id="kleurNavbar"
-                    class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <nav class="navbar bg-body-tertiary">
-                            <div class="container-fluid">
-                                <a class="swishingTekst navbar-brand" href="../index.html">
-                                    <img src="../logos/whiteIcon.png" alt="Logo"
-                                        width="65" height="42"
-                                        class="d-inline-block align-text-top">
-                                    Swishing
-                                </a>
-                            </div>
-                        </nav>
-                        <div class="collapse navbar-collapse"
-                            id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="cooleKnop nav-item">
-                                    <a class="nav-link active"
-                                        aria-current="page"
-                                        href="../index.html">Home</a>
-                                </li>
-                                <li class="cooleKnop nav-item">
-                                    <a class="nav-link active"
-                                        aria-current="page"
-                                        href="./producten.html">Producten</a>
-                                </li>
-                                <li class="cooleKnop nav-item">
-                                    <a class="nav-link active"
-                                        aria-current="page"
-                                        href="./about.html">Over ons</a>
-                                </li>
-                                <li class="cooleKnop nav-item">
-                                    <a class="nav-link active"
-                                        aria-current="page"
-                                        href="./contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+
+                <nav class="navbar navbar-expand-lg navbar-light" id="kleurNavbar">
+        <div class="container-fluid">
+                <a class="swishingTekst navbar-brand" href="../index.html">
+                    <img src="../logos/whiteIcon.png" alt="Logo" width="65" height="42" class="d-inline-block align-text-top">
+                    Swishing
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="cooleKnop nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="cooleKnop nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/producten.html">Producten</a>
+                    </li>
+                    <li class="cooleKnop nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/about.html">Over ons</a>
+                    </li>
+                    <li class="cooleKnop nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/contact.html">Contact</a>
+                    </li>
+                    <li class="cooleKnop nav-item">
+                        <a href="../html/winkelkar.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="" class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+                    </div>
+                </div>
     <!-- Titel -->
     <div class="container">
         <div class="row" style="text-align: center; font-weight: bold; font-size: 2rem; margin: 25px;">
@@ -103,13 +99,11 @@
                         <img src="../ProductenImg/Punten.png" class="img-fluid fotosOverOnsPagina" alt="">
                     </div>
                     <div class="col-md-8 d-flex align-items-center" style="text-align: center;">
-                        <div class="card-body">
+                        <div class="card-body col-md-8 d-flex" style="display: flex; flex-direction: column; align-items: center;">
                             <p class="card-text">Hoe kan je kleren ruilen? Als je kleren hebt die je niet meer gebruikt en deze graag weg wil doen, dan kan je naar onze winkel komen om deze (eventueel) te ruilen. Je kledingstuk wordt beoordeeld op de staat waarin het zich bevindt. Je krijgt dan punten en met deze punten kan je een kledingstuk kiezen dat je wel graag ziet. Hoe werkt het puntensysteem?</p>
-                            <div style="display: flex; flex-direction: column; align-items: start; width: 700px;">
-                                <p>- Hangt het prijskaartje er nog aan en is het niet gedragen? --> 5 punten</p>
-                                <p>- Heb je het kledingstuk bijna niet gedragen en is het nog in goede staat? --> 4 punten</p>
-                                <p>- Is je kledingstuk in een minder goeie staat? --> 3 punten</p>
-                            </div>
+                            <p class="card-text align-self-start">- Hangt het prijskaartje er nog aan en heb je je kledingstuk niet gedragen? Dan krijg je 5 punten.</p>
+                            <p class="card-text align-self-start">- Heb je het kledingstuk bijna niet gedragen en is het nog in goede staat? Dan krijg je 4 punten.</p>
+                            <p class="card-text align-self-start">- Is je kledingstuk in een minder goeie staat? Dan krijg je 3 punten.</p>
                         </div>
                     </div>
                 </div>
